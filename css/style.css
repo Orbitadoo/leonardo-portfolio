@@ -94,21 +94,10 @@
     cursor: pointer;
 }
 
-/* .container__sectionContent button:hover{
-    background-color: var(--main-text-color);
-    color: white;
-    width: 40%;
-    font-size: .90em;
-} */
-
 .container__sectionContent a {
     text-decoration: none;
     color: var(--main-text-color);
 }
-
-/* .container__sectionContent a:hover {
-    color: white;
-} */
 
 /* GRID DERECHA */
 
@@ -152,22 +141,6 @@
         transition: 200ms;
         cursor: pointer;
     }
-
-    /* .container__sectionContent button:hover{
-        color: var(--main-text-color);
-        width: 100%;
-        margin-top: 2em;
-        padding: .65em;
-        background: none;
-    
-        font-size: .72em;
-    
-        border: .1em solid var(--main-text-color);
-        border-radius: 2em;
-    
-        transition: 200ms;
-        cursor: pointer;
-    } */
 
     .container__sectionContent button:focus {
         background-color: var(--main-text-color);
@@ -214,21 +187,7 @@
         cursor: pointer;
     }
 
-    /* .container__sectionContent button:hover{
-        color: var(--main-text-color);
-        width: 100%;
-        margin-top: 2em;
-        padding: .65em;
-        background: none;
-    
-        font-size: .72em;
-    
-        border: .1em solid var(--main-text-color);
-        border-radius: 2em;
-    
-        transition: 200ms;
-        cursor: pointer;
-    } */
+
 
     .container__sectionContent button:focus {
         background-color: var(--main-text-color);
@@ -240,7 +199,8 @@
 /* SECCIÓN DE CONTACTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO RESPONSIVEEEEEEEEEEEEEEEEEEEEEEEEE */
 .container_contactMain {
     height: 100vh;
-    background-color: var(--bg-color);
+    background: rgb(15,15,15);
+    background: linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(31,31,31,1) 50%, rgba(25,25,25,1) 100%);
 }
 
 /* FLECHA SUPERIOR */
@@ -487,10 +447,6 @@
         transition: 200ms;
     }
 
-    /* .elements-list a:hover {
-        font-size: 1.1rem;
-    } */
-
     /* SOCIAL MEDIA */
     .container_contactMain .content__h1 {
         margin-top: 10%;
@@ -521,7 +477,8 @@
 
 #formMain {
     height: 100vh;
-    background-color: var(--bg-color);
+    background: rgb(15,15,15);
+    background: linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(31,31,31,1) 50%, rgba(25,25,25,1) 100%);
 }
 
 #formNav {
@@ -584,7 +541,8 @@
 }
 .portfolioMain {
     height: 100vh;
-    background-color: var(--bg-color);
+    background: rgb(15,15,15);
+    background: linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(31,31,31,1) 50%, rgba(25,25,25,1) 100%);
 }
 
 #sectionPortfolio {
@@ -658,7 +616,8 @@
 /* SERVICESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS RESPONSIVEEEEEEEEEEEE */
 
 .servicesMain {
-    background-color: var(--bg-color);
+    background: rgb(15,15,15);
+    background: linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(31,31,31,1) 50%, rgba(25,25,25,1) 100%);
     height: auto;
 }
 
@@ -701,10 +660,7 @@
     transition: 100ms;
 }
 
-/* #sectionServices .curriculum-btn:hover {
-    font-size: 1.05em;
-    background-color: var(--main-text-color);
-} */
+
 
 #sectionServices .curriculum-btn a {
     text-decoration: none;
@@ -714,9 +670,6 @@
     transition: 100ms;
 }
 
-/* #sectionServices .curriculum-btn a:hover {
-    color: var(--hover-button-text);
-} */
 
 /* RESPONSIVE DE ARTICLE SERVICES */
 
