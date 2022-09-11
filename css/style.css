@@ -93,11 +93,22 @@
     transition: 200ms;
     cursor: pointer;
 }
+.container__sectionContent button:hover{
+    background-color: var(--main-text-color);
+    color: white;
+    width: 40%;
+    font-size: .90em;
+}
 
 .container__sectionContent a {
     text-decoration: none;
     color: var(--main-text-color);
 }
+
+.container__sectionContent a:hover {
+    color: white;
+}
+
 
 /* GRID DERECHA */
 
@@ -147,6 +158,21 @@
         color: white;
     }
 
+    .container__sectionContent button:hover{
+        color: var(--main-text-color);
+        width: 100%;
+        margin-top: 2em;
+        padding: .65em;
+        background: none;
+    
+        font-size: .72em;
+    
+        border: .1em solid var(--main-text-color);
+        border-radius: 2em;
+    
+        transition: 200ms;
+        cursor: pointer;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -187,7 +213,22 @@
         cursor: pointer;
     }
 
+    
+   .container__sectionContent button:hover{
+    color: var(--main-text-color);
+    width: 100%;
+    margin-top: 2em;
+    padding: .65em;
+    background: none;
 
+    font-size: .72em;
+
+    border: .1em solid var(--main-text-color);
+    border-radius: 2em;
+
+    transition: 200ms;
+    cursor: pointer;
+}
 
     .container__sectionContent button:focus {
         background-color: var(--main-text-color);
@@ -447,6 +488,11 @@
         transition: 200ms;
     }
 
+    .elements-list a:hover {
+        color: white;
+        font-size: 1.1rem;
+    }    
+
     /* SOCIAL MEDIA */
     .container_contactMain .content__h1 {
         margin-top: 10%;
@@ -661,6 +707,14 @@
 }
 
 
+#sectionServices .curriculum-btn:hover {
+    font-size: 1.05em;
+    background-color: var(--main-text-color);
+}
+
+#sectionServices .curriculum-btn a:hover {
+    color: var(--hover-button-text);
+}
 
 #sectionServices .curriculum-btn a {
     text-decoration: none;
